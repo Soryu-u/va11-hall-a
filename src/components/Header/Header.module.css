@@ -1,9 +1,22 @@
 .header {
     background-color: #282c34;
-    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 300px);
     height: 40px;
-    color: aliceblue;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
 }

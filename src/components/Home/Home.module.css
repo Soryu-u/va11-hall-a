@@ -1,0 +1,9 @@
+.container {
+    border: 2px solid #282c34;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: slategrey;
+}
