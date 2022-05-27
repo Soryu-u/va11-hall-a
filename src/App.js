@@ -13,7 +13,6 @@ export default function App() {
                 <Route path='/' element={
                     <div>
                         <Header/>
-                        <Sidebar/>
                         <Main/>
                     </div>
                 }>
